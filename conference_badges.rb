@@ -12,7 +12,7 @@ end
 
 def assign_rooms(people)
   people.each.with_index(1) do |name, i|
-    puts "Hello, #{name}! You'll be assigned to room #{counter}!"
+    puts "Hello, #{name}! You'll be assigned to room #{i}!"
   end
 end
 
