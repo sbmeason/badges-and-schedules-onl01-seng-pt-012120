@@ -12,7 +12,7 @@ end
 
 def assign_rooms(people)
   new_array = []
-  counter = 0 
+  counter = 1 
   people.map do |name|
     "Hello, #{name}! You'll be assigned to room #{counter.length}!"
     counter += 1
