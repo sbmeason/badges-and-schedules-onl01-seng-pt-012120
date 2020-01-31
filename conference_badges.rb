@@ -23,7 +23,9 @@ end
 def printer(array)
   batch_badge_creator(people).each do |id|
     puts id
-  end 
+  end
+end
+
 
   
 
