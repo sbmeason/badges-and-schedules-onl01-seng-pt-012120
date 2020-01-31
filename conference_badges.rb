@@ -11,7 +11,7 @@ def batch_badge_creator(people)
 end
 
 def assign_rooms(people)
-  if counter.length = 0 
+  new_array = [] 
   people.map do |name|
     "Hello, #{name}! You'll be assigned to room #{counter.length}!"
     counter += 1
