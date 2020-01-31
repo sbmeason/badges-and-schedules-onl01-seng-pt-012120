@@ -16,6 +16,7 @@ def assign_rooms(people)
     "Hello, #{name}! You'll be assigned to room #{counter}!"
     counter += 1
   end
-  puts 
+end
+
   
 
