@@ -4,11 +4,11 @@ def badge_maker(people)
   "Hello, my name is #{people}."
 end
 
-
 def batch_badge_creator(people)
   people.map do |name|
     "Hello, my name is #{name}."
   end
 end
+
 
 
