@@ -12,8 +12,7 @@ end
 
 def assign_rooms(people)
   people.each.with_index(1) |name, i|
-    "Hello, #{name}! You'll be assigned to room #{counter}!"
-    counter += 1
+    puts "Hello, #{name}! You'll be assigned to room #{counter}!"
   end
 end
 
